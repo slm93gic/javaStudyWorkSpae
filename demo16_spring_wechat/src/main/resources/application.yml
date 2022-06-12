@@ -1,0 +1,36 @@
+server:
+  port: 9999
+spring:
+  http:
+    encoding: charset=iso-8859-1
+  thymeleaf:
+    prefix: classpath:/templates/default/
+
+weixin4j:
+  #微信开发配置
+  config:
+    token: weixin4j
+    #开发者第三方用户唯一凭证
+    appid: wx7b00bc69da12112f
+    #开发者第三方用户唯一凭证密钥
+    secret: 892a27c07744f7da45eb649e548c2751
+    #公众号原始ID
+    originalid: gh_f1f20550aad9
+    #消息加密方式 0:明文模式(默认), 1:兼容模式, 2:安全模式(推荐)
+    encodingtype: 0
+    #消息加密密钥(43位字符组成A-Za-z0-9)
+    encodingaeskey: 0123456789abcedfghijklmnopqrstuvwxyzZXCVBNM
+    #网页安全授权URL
+    oauthUrl:
+  #微信支付配置
+  payConfig:
+    #微信支付_商户ID，例如10000000001
+    partnerId:
+    #微信支付_商户密钥，由商户设置32位字符
+    partnerKey:
+    #微信支付_通知URL，异步接收微信支付结果的URL
+    notifyUrl:
+    #证书路径(pk12格式)，例如：/opt/cert/10000000001.pk12
+    certPath:
+    #证书密钥,默认为商户ID，例如：10000000001
+    certSecret:

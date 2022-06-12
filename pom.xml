@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>javaStudyWorkSpae</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>demo01_jdkProxy</module>
+        <module>demo02_proxy_annotation</module>
+        <module>demo03_file_down</module>
+        <module>demo04_jdk8</module>
+        <module>demo05-aop</module>
+        <module>demo06_myBatis</module>
+        <module>demo07_collection</module>
+        <module>demo09_flowable</module>
+        <module>demo10_RPC</module>
+        <module>demo11_shiro</module>
+        <module>demo12_thread</module>
+        <module>demo13_redis</module>
+        <module>demo14_transaction</module>
+        <module>demo15_rabbitmq</module>
+        <module>demo16_spring_wechat</module>
+        <module>demo17_thread_download</module>
+        <module>demo18_SSO</module>
+        <module>demo19_passSSO</module>
+        <module>demo20_schedule-job</module>
+        <module>demo21_wx01</module>
+        <module>demo22_springData</module>
+        <module>demo24_slimswagger</module>
+        <module>demo25_MySpring</module>
+        <module>demo26_MySpringBoot</module>
+        <module>demo28_threadLocal</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+</project>

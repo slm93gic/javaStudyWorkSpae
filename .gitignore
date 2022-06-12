@@ -1,0 +1,5 @@
+**/artifacts
+**/libraries
+**/.idea
+*.iml
+**/target
