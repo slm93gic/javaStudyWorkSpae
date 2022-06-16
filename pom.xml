@@ -17,6 +17,9 @@
         <module>demo06_myBatis</module>
         <module>demo07_collection</module>
         <module>demo09_flowable</module>
+        <module>demo09_flowable/flowable-springboot</module>
+        <module>demo09_flowable/flowable_demo01</module>
+        <module>demo09_flowable/flowable_demo02</module>
         <module>demo10_RPC</module>
         <module>demo11_shiro</module>
         <module>demo12_thread</module>
@@ -34,11 +37,22 @@
         <module>demo25_MySpring</module>
         <module>demo26_MySpringBoot</module>
         <module>demo28_threadLocal</module>
+        <module>demo08_datasource_auto</module>
+        <module>demo27_daily</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+<!--    <build>-->
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--            </plugin>-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 </project>
